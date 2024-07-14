@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form action="{{ url_for('submit') }}" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="date_of_birth">Date of Birth:</label><br>
+        <input type="date" id="date_of_birth" name="date_of_birth" required><br><br>
+        
+        <label for="occupation">Occupation:</label><br>
+        <input type="text" id="occupation" name="occupation"><br><br>
+        
+        <label for="race">Race:</label><br>
+        <input type="text" id="race" name="race"><br><br>
+        
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country"><br><br>
+        
+        <label for="gender">Gender:</label><br>
+        <input type="text" id="gender" name="gender"><br><br>
+        
+        <label for="pronouns">Pronouns:</label><br>
+        <input type="text" id="pronouns" name="pronouns"><br><br>
+        
+        <label for="interests">Interests (comma separated):</label><br>
+        <input type="text" id="interests" name="interests"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
