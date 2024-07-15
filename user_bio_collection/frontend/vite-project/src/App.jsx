@@ -100,10 +100,8 @@ function App() {
           setPr(e.target.value);
         }}
       >
-        <option value="he">he</option>
-        <option value="him">him</option>
-        <option value="she">she</option>
-        <option value="male">her</option>
+        <option value="he">he/him</option>
+        <option value="she">she/her</option>
       </select>
       <p>interests</p>
       <input
